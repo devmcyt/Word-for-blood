@@ -1,4 +1,4 @@
-# Woba-Race
+# Word for blood
 A simple word racing game to fill a cup of Blood!
 This project was made using HTML, CSS, And Javascript.
 the HTML and CSS have been entirely handmade, with some debugging with the use of github Copilot.
