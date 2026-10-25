@@ -110,9 +110,14 @@ function findWordsForAI() {
 }
 
 function renderPearls(container, count) {
-    for(let i = 0; i < count; i++) {
+    const pearlLimit = 50;
+    const pearlsToAdd = Math.min(count, pearlLimit - container.children.length);
+    for (let i = 0; i < pearlsToAdd; i++) {
+        const position = container.children.length + 1;
         const pearl = document.createElement("div");
         pearl.classList.add("boba-pearl");
+        pearl.style.gridRow = String(5 - Math.floor((position - 1) / 10));
+        pearl.style.gridColumn = String((position - 1) % 10 + 1);
         container.appendChild(pearl);
     }
 }
