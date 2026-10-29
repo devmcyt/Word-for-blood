@@ -21,3 +21,11 @@ VSCODE
 GITHUB COPILOT
 YOUTUBE
 W3SCHOOLS web tutorials
+
+how to clone my repo:
+1) install git
+2) clone my project using cmd:
+3) git clone https://github.com/devmcyt/Word-for-blood/
+4) open your project (index.html)
+   
+   
